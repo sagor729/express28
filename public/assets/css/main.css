@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300,400;500,600;700&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif !important;
+}
+
+a {
+    color: #fff;
+}
+
+.logo {
+    width: 30%;
+    margin: auto;
+}
+
+.logoImg {
+    width: 60%;
+    margin: auto;
+}
+
+.hero_banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero_banner_img {
+    width: 90%;
+    /* margin: auto; */
+}
+
+.hero_banner_content h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.hero_banner_content p {
+    text-align: justify;
+    text-justify: initial;
+}
+
+.topBanner img {
+    width: 100%;
+    height: 121px;
+}
+
+.text-dark {
+    color: rgb(129, 125, 255);
+}
+
+.text-dark2 {
+    margin: auto;
+}
+
+.text-dark3 {
+    background: #c81e1e;
+    padding: 8px;
+    color: white;
+}
+
+.bg-red-700 {
+    background-color: #b30f0f;
+}
+
+.logform {
+    width: 34%;
+    background: #bbf7d0;
+}
+
+.log_inp {
+    color: black;
+}
+
+.username {
+    outline: #b30f0f;
+}
+
+.registerForm {
+    background: #bbf7d0;
+}
+
+.rfooterback {
+    background-color: white;
+}
+
+.rfil {
+    color: black;
+}
